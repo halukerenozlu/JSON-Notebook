@@ -37,19 +37,6 @@ def search_notes():
         raise FileNotFoundError("notes.json was not found in this directory.")
 
 
-print("*****************************")
-print("* Welcome to your notebook. *")
-print("*****************************")
-
-time = datetime.datetime.now()
-print(time)
-
-
-print("*****************************")
-print("* Welcome to your notebook. *")
-print("*****************************")
-
-# Zamanı bastıralım
 current_time = datetime.datetime.now().replace(microsecond=0)
 print(current_time)
 
