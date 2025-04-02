@@ -1,17 +1,15 @@
 ## JSON Bazlı Not Defteri Uygulaması
 
-Konsept: Kullanıcı not ekleyebilir, silebilir, güncelleyebilir ve listeleyebilir.
+Concept: User can add, delete, update and list notes.
 
-Kullanılanlar: json, dict, with open(), lambda, list comprehension, try-except
+Used in json, with open(), try-except
 
-Özellikler:
+Properties:
 
-- Notlar JSON dosyasında saklanır.
+- Notes are stored in JSON file.
 
-- Kullanıcı not ekleyebilir, güncelleyebilir, silebilir ve arayabilir.
+- User can add, update, delete and search notes.
 
-- Lambda fonksiyonları ve comprehension kullanılarak filtreleme yapılır.
+- Error handling is added (e.g. if the file cannot be found or is corrupted).
 
-- Hata yönetimi eklenir (örn. dosya bulunamazsa veya bozulursa).
-
-- Standart modüller (json, os, datetime) kullanılır.
+- Standard modules (json, os, datetime) are used.
