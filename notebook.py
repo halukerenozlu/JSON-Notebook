@@ -46,7 +46,7 @@ def delete_notes():
         print("No notes found. Unable to delete.")
         return
 
-    # Mevcut notları listele
+    # List existing notes
     print("Existing Notes:")
     for i, note in enumerate(notes):
         print(f"{i}. Date: {note['date']} | Content: {note['content']}")
