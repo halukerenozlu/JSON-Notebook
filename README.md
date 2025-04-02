@@ -1,4 +1,4 @@
-## JSON Bazlı Not Defteri Uygulaması
+## JSON Based Notebook Application
 
 Concept: User can add, delete, update and list notes.
 
